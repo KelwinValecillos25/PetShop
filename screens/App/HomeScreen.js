@@ -121,7 +121,6 @@ const HomeScreen = ({ navigation }) => {
   );
 };
 
-// ... (los estilos son los mismos que en la versión anterior)
 const styles = StyleSheet.create({
     container: { flex: 1, backgroundColor: '#FFFFFF', paddingTop: 40, },
     header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 20, paddingBottom: 10 },
