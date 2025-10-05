@@ -1,4 +1,3 @@
-// screens/App/CartScreen.js
 import React, { useState, useCallback } from 'react';
 import { View, Text, FlatList, TouchableOpacity, Image, StyleSheet, Alert } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
