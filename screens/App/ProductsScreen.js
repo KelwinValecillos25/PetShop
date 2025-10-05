@@ -1,4 +1,3 @@
-// screens/App/ProductsScreen.js
 import React, { useState, useCallback } from 'react';
 import { View, Text, TextInput, TouchableOpacity, FlatList, Alert, Image, StyleSheet, Modal } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -103,8 +102,6 @@ const ProductsScreen = ({ navigation }) => {
     }
     setModalVisible(true);
   };
-  
-  // El resto del código JSX es el mismo que en la versión anterior
   return (
     <View style={styles.container}>
       <View style={styles.header}><Text style={styles.headerTitle}>Products</Text></View>
@@ -148,7 +145,6 @@ const ProductsScreen = ({ navigation }) => {
     </View>
   );
 };
-// ... (los estilos son los mismos que en la versión anterior)
 const styles = StyleSheet.create({
     container: { flex: 1, backgroundColor: '#FFFFFF', paddingTop: 40 },
     header: { paddingHorizontal: 20, paddingBottom: 10 },
