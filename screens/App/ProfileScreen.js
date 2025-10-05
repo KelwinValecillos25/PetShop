@@ -1,4 +1,3 @@
-// screens/App/ProfileScreen.js
 import React, { useContext } from 'react';
 import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { AuthContext } from '../../context/AuthContext';
@@ -27,7 +26,6 @@ const ProfileScreen = ({ navigation }) => {
     </View>
   );
 };
-// ... (copia y pega los estilos de la respuesta anterior de "ProfileScreen")
 const styles = StyleSheet.create({
     container: { flex: 1, alignItems: 'center', backgroundColor: '#FFFFFF', paddingTop: 60, paddingHorizontal: 20 },
     profileImage: { width: 120, height: 120, borderRadius: 60, marginBottom: 20 },
